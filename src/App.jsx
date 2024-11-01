@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import video from "./assets/videoBTC.mp4";
+import video from "./assets/lado.jpeg";
 
 import Formulario from "./components/Formulario";
 import axios from "axios";
@@ -38,12 +38,10 @@ function App() {
     <>
       <div className="contenedor">
         <div>
-          <video
+          <img
             className="video"
             src={video}
-            loop={true}
-            autoPlay={true}
-          ></video>
+          ></img>
         </div>
         <div>
           <h1 className="heading"> Cotiza criptomonedas al instante</h1>
