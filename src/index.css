@@ -8,6 +8,7 @@
   margin-top: 5rem;
 }
 .contenedor {
+  background: #000;
   max-width: 900px;
   margin: 0 auto;
   @media (min-width: 922px) {
